@@ -3,6 +3,7 @@ package com.examplevinhphutvp.oop25022020;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +11,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Object va class
+//        String a = "5";
+        // function construrtor
+        Person nguyenvana = new Person();
+        nguyenvana.age = 10;
+        nguyenvana.name = "Nguyen Van A";
+        Log.d("BBB", nguyenvana.name + " " + nguyenvana.age);
+
     }
 }
