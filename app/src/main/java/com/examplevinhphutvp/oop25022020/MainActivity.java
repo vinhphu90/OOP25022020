@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
+    public String a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
         // Object va class
 //        String a = "5";
         // function construrtor
-        Person nguyenvana = new Person();
-        nguyenvana.age = 10;
-        nguyenvana.name = "Nguyen Van A";
-        Log.d("BBB", nguyenvana.name + " " + nguyenvana.age);
+//        Giangvien nguyenvana = new Giangvien();
+//        nguyenvana.experience = "1";
+//        nguyenvana.name = "Nguyen Van A";
+//        Log.d("BBB", nguyenvana.name + " " + nguyenvana.age);
+        Person nguyenvanA = new Person("Nguyen Van A",20,"Quận 10",1234567891,200,700000);
 
     }
+    // Access modifier
+    // Public, Default , private , protected
 }
