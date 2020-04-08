@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
 //        nguyenvana.name = "Nguyen Van A";
 //        Log.d("BBB", nguyenvana.name + " " + nguyenvana.age);
         Person nguyenvanA = new Person("Nguyen Van A",20,"Quận 10",1234567891,200,700000);
+        nguyenvanA.setName("");
 
+        Log.d("BBB",nguyenvanA.getName());
     }
     // Access modifier
     // Public, Default , private , protected
